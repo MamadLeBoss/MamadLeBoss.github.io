@@ -1,3 +1,173 @@
 body{
-    Helvetica Now Text", Helvetica, Arial, sans-serif;
+    font-family:  Now Text, Helvetica, Arial, sans-serif;
+    background-image: url("/Projet-Rolex/snakestockphoto-1422029559-612x612.jpg");
+    color: white;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     background-color: #143423;
+     height: 96px;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+a{
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    display: flex;
+    text-decoration:none;
+    color: white;
+    font-size: 14px;
+    }
+    #right i{
+      margin: 0 14px;
+      color: white;
+    }
+    #Logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+     }
+     #Logo img{
+        height: 90px;
+     }
+     #Partie1{
+      position: relative;
+      margin: 10px 0 10px;
+
+     }
+     #Partie1 .intr{
+
+      width: 100%;
+     }
+     .intro{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+     }
+     .intro h2{
+      text-align: center;
+      font-size: 45px;
+     }
+     #Partie2{
+      position: relative;
+      margin: 10px 0 10px;
+     }
+     #Partie2 .bio{
+      width: 100%;
+     }
+     .intro2{
+      position: absolute;
+      top: 33%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+     }
+     .intro2 h2{
+      text-align: center;
+      font-size: 45px;
+     }
+     .montre1{
+      position: relative;
+     }
+     .montre1 img{
+      width: 100%;
+     }
+     .watch{
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+     }
+     .watch a{
+      position: absolute;
+      bottom: 2%;
+      right: 0;
+     }
+     .watch h2{
+      font-size: 30px;
+     }
+     .avis-container{
+        display: flex;
+        padding-bottom: 13px;
+        gap: 13px;
+        align-items:center;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+     }
+     .avis{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+        width: 25%;
+        background: #143423;
+        padding: 15px;
+        box-shadow: 0px -22px 32px 14px rgba(0,0,0,0.1);
+        border-radius: 25px;
+        transition: all 0.5s ease-in-out;
+     }
+     .avis:hover{
+        box-shadow: 18px 12px 29px 12px rgba(0,0,0,0.1);
+     }
+     .avis img{
+        width: 80%;
+        border-radius: 20px;
+        height: 150px;
+     }
+     .information{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+     }
+     .bouton{
+        background-color: #143423;
+        border-radius: 10px;
+        border: 2px solid white;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        padding: 12px 16px;
+        cursor: pointer;
+        margin: 0 8px;
+     }
+     .name-stars{
+        display:flex;
+        align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+     }
+     footer{
+        background-color: #143423;
+        display: flex;
+        width: 100%;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        }
+        footer div{
+         margin: 10px 0 0 0;
+      }
+      footer div i{
+         margin: 0 6px;
+      }
+      footer h2{
+         margin: 10px 0;
+      }
+
